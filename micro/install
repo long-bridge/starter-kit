@@ -1,0 +1,1 @@
+test -f /usr/local/bin/micro || curl -sSL https://github.com/micro/micro/releases/download/v1.18.0/micro-v1.18.0-darwin-amd64.tar.gz -o /tmp/micro.tar.gz && tar zxf /tmp/micro.tar.gz && mv micro /usr/local/bin/
